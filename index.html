@@ -12,7 +12,7 @@
 
    </div>
    <div>
-    <P class="p1">Hello i am mitesh parmar </P>
+    <P class="p1">Hello</P>
     <p>Welcome to SlideCrafters, your ultimate destination for premium PowerPoint </p>
     <p>templates and presentations. Our PPTs are designed to help you make an </p>
     <p>impact, whether you're presenting to clients, investors, or your team.
@@ -22,16 +22,166 @@
     <p>PowerPoint templates that will help you create a stunning presentation in no </p>
     <p>time.</p>
     <div id="d2">
-        <p id="pc1">contact Us</p>
-        <p id="pc1">7559395322</p>
-        <p id="pc1">miteshparmar9325@gmail.com</p>
+        
 
     </div>
     <p>At SlideCrafters, we're committed to providing you with the highest quality </p>
     <p>PPTs at an affordable price. Our templates are competitively priced, so you</p>
     <p>don't have to break the bank to create a professional presentation</p>
     <p class="p2">So why wait? </p>
-    <p>We're here to help you make an impact with your presentations!</p>
+    <pre>Q.	Write an algorithm, draw a flowchart and Write a JavaScript program to find-out the Factorial of a Number.
+Coding:
+<html>
+	<head>
+		<title> practicalone </title>
+	</head>
+	<body>
+		<h2 align="center"> <em> Program to find-out factorial of a number </em> </h2>
+		<hr color="blue" size="5">
+			<script>
+				var i, fact, num;
+				num=parseInt(prompt("Please enter a number:"));
+				i=1;
+				fact=1;
+					while (i<=num)
+					{
+						fact=fact*i;
+						i=i+1;
+					}
+					document.write("The factorial of given number is: "+fact);
+			</script>
+	</body>
+</html>
+        
+</pre>
+       <pre>
+           Q.	Write an algorithm, draw a flowchart and Write a JavaScript Progam to Check Number Is Positive, Negative or Zero.
+Coding:
+<html>
+	<head>
+		<title> practicaltwo </title>
+	</head>
+	<body>
+		<h2 align="center"> <em> Program to check number is Positive, Negative or Zero </em> </h2>
+		<hr color="blue" size="5">
+			<script>
+				var num;
+				num=parseInt(prompt("Please enter any number:"));
+				if (num>0)
+				{
+					document.write("The given number is Positive");
+				}
+				else if (num<0)
+				{
+					document.write("The given number is Negative");
+				}
+				else
+				{
+					document.write("The given number is Zero");
+				}
+			</script>
+	</body>
+</html>
+
+       </pre>
+
+       <pre>
+           Q.	Write an algorithm, draw a flowchart and Write a JavaScript Program to Check the Number Is Palindrome or Not.
+Coding:
+<html>
+	<head>
+		<title> practicalthree </title>
+	</head>
+	<body>
+		<h2 align="center"> <em> Program to check the number is Palindrome or Not </em> </h2>
+		<hr color="blue" size="5">
+			<script>
+				var num, pal, r, ori;
+				num=parseInt(prompt("Please enter any number:"));
+				ori=num;
+				pal=0;
+					while(num>0)
+					{
+						r=num%10;
+						pal=pal*10+r;
+						num=parseInt(num/10);
+					}
+					if(ori==pal)
+					{
+						document.write("The given number is PALINDROME");
+					}
+					else
+					{
+						document.write("The given number is NOT PALINDROME");
+					}
+			</script>
+	</body>
+</html>
+
+       </pre>
+       <pre>
+           Q.	Write an algorithm, draw a flowchart and Write a JavaScript Program to Check Number Is Prime or Not.
+Coding:
+<html>
+	<head>
+		<title> practicalfour </title>
+	</head>
+	<body>
+		<h2 align="center"> <em> Program to check number is Prime or Not </em> </h2>
+		<hr color="blue" size="5">
+			<script>
+				var num, i;
+				function checkprime(num)
+				{
+					num=parseInt(prompt("Please enter any number:"));
+						if(num<=1)
+						{
+							return false;
+						}
+						for(i=2; i<num; i++)
+						{
+							if(num%i==0)
+							{
+								return false;
+							}
+						}
+						return true;							
+				}
+				document.write(checkprime(num));
+			</script>
+	</body>
+</html>
+
+       </pre>
+
+       <pre>
+           Q.	Write an algorithm, draw a flowchart and Write a JavaScript Program to print factors of a inputted number.
+Coding:
+<html>
+	<head>
+		<title> practicalfive </title>
+	</head>
+	<body>
+		<h2 align="center"> <em> Program to find the factors of a number </em> </h2>
+		<hr color="blue" size="5">
+			<script>
+				var num, i;
+				num=parseInt(prompt("Please enter any number:"));
+					for(i=1; i<=num; i++)
+					{
+						if(num%i==0)
+						{
+							document.write(i);
+							document.write("<br>");
+						}
+					}
+			</script>
+	</body>
+</html>
+
+
+       </pre>
+        
 
 
 </body>
